@@ -1,0 +1,3 @@
+/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/CMakeFiles/MyGame.dir

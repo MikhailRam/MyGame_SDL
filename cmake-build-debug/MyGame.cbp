@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyGame"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\Library\;CMake Files\..\..\..\..\..\..\..\Library\Frameworks\;CMake Files\..\..\..\..\..\..\..\Library\Frameworks\SDL2.framework\;CMake Files\..\..\..\..\..\..\..\Library\Frameworks\SDL2.framework\Resources\;CMake Files\..\..\..\..\..\..\..\Library\Frameworks\SDL2.framework\Resources\CMake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyGame">
+				<Option output="/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/MyGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/MyGame"/>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyGame/fast">
+				<Option output="/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/MyGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/MyGame"/>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyGame/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/main.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/../../../../../../../Library/Frameworks/SDL2.framework/Resources/CMake/sdl2-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Library\Frameworks\SDL2.framework\Resources\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/../../../../../../../Library/Frameworks/SDL2.framework/Resources/CMake/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\Library\Frameworks\SDL2.framework\Resources\CMake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
