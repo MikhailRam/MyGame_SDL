@@ -1,13 +1,23 @@
 #include <iostream>
 #include <SDL2/SDL.h>
 
+#include "Protagonist.h"
+#include "Enemy.h"
+
+
+namespace window_parametrs{
+    constexpr uint16_t delay_value{3000};
+
+    constexpr uint16_t width_pix{3000};
+    constexpr uint16_t hight_pix{2000};
+    constexpr uint16_t width{1280};
+    constexpr uint16_t hight{720};
+}
 
 int main() {
 
-    // Create a window data type
-    // This pointer will point to the
-    // window that is allocated from SDL_CreateWindow
-    SDL_Window* window=nullptr;
+    SDL_Window* window {nullptr};
+    SDL_Surface* screenSurface{nullptr};
 
     // Initialize the video subsystem.
     // If it returns less than 1, then an
@@ -30,10 +40,10 @@ int main() {
     // The parameters are for the title, x and y position,
     // and the width and height of the window.
     window = SDL_CreateWindow("C++ SDL2 Window",
-                              2000,
-                              2000,
-                              640,
-                              480,
+                              window_parametrs::width_pix,
+                              window_parametrs::hight_pix,
+                              window_parametrs::width,
+                              window_parametrs::hight,
                               SDL_WINDOW_SHOWN | SDL_WINDOW_OPENGL);
 
     // OpenGL setup the graphics context
@@ -67,7 +77,7 @@ int main() {
             // Retrieve the state of all of the keys
             // Then we can query the scan code of one or more
             // keys at a time
-            const Uint8* state = SDL_GetKeyboardState(NULL);
+            const Uint8* state = SDL_GetKeyboardState(nullptr);
             if(state[SDL_SCANCODE_RIGHT]){
                 std::cout << "right arrow key is pressed\n";
             }
@@ -86,19 +96,19 @@ int main() {
     // taking down the subsystems here before we exit
     // We add a delay in order to see that our window
     // has successfully popped up.
-    SDL_Delay(3000);
+    SDL_Delay(window_parametrs::delay_value);
     // We add a delay in order to see that our window
     // has successfully popped up.
-    SDL_Delay(3000);
+    SDL_Delay(window_parametrs::delay_value);
     // We add a delay in order to see that our window
     // has successfully popped up.
-    SDL_Delay(3000);
+    SDL_Delay(window_parametrs::delay_value);
     // We add a delay in order to see that our window
     // has successfully popped up.
-    SDL_Delay(3000);
+    SDL_Delay(window_parametrs::delay_value);
     // We add a delay in order to see that our window
     // has successfully popped up.
-    SDL_Delay(3000);
+    SDL_Delay(window_parametrs::delay_value);
     // our program.
     SDL_Quit();
     return 0;

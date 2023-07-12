@@ -5,7 +5,16 @@ set(CMAKE_CXX_STANDARD 20)
 
 find_package(SDL2 REQUIRED)
 
-add_executable(MyGame main.cpp)
+set(SOURCE src/Creature.cpp
+        src/Protagonist.cpp
+        src/Enemy.cpp)
 
-include_directories(MyGame ${SDL2_INCLUDE_DIRS})
-target_link_libraries(MyGame ${SDL2_LIBRARIES})
+add_executable(${PROJECT_NAME}
+        main.cpp
+        ${SOURCE})
+
+target_include_directories(${PROJECT_NAME} PUBLIC
+        ${SDL2_INCLUDE_DIRS}
+        include)
+
+target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
