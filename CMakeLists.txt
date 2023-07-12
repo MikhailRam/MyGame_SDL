@@ -3,7 +3,10 @@ project(MyGame)
 
 set(CMAKE_CXX_STANDARD 20)
 
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/CMake/")
+
 find_package(SDL2 REQUIRED)
+find_package(SDL2_image REQUIRED)
 
 set(SOURCE src/Creature.cpp
         src/Protagonist.cpp
@@ -15,6 +18,9 @@ add_executable(${PROJECT_NAME}
 
 target_include_directories(${PROJECT_NAME} PUBLIC
         ${SDL2_INCLUDE_DIRS}
+        ${SDL2IMAGE_INCLUDE_DIRS}
         include)
 
-target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
+target_link_libraries(${PROJECT_NAME}
+        ${SDL2_LIBRARIES}
+        ${SDL2_IMAGE_LIBRARIES})

@@ -3,13 +3,14 @@
 
 #include "Protagonist.h"
 #include "Enemy.h"
+#include "SDL2_image/SDL_image.h"
 
 
 namespace window_parametrs{
     constexpr uint16_t delay_value{3000};
 
-    constexpr uint16_t width_pix{3000};
-    constexpr uint16_t hight_pix{2000};
+    constexpr uint16_t width_pix{0};
+    constexpr uint16_t hight_pix{0};
     constexpr uint16_t width{1280};
     constexpr uint16_t hight{720};
 }
@@ -17,7 +18,8 @@ namespace window_parametrs{
 int main() {
 
     SDL_Window* window {nullptr};
-    SDL_Surface* screenSurface{nullptr};
+    SDL_Renderer* renderer {nullptr};
+    SDL_Surface* screenSurface{nullptr}; //?
 
     // Initialize the video subsystem.
     // If it returns less than 1, then an
@@ -50,9 +52,6 @@ int main() {
     SDL_GLContext context;
     context = SDL_GL_CreateContext(window);
 
-    // Setup our function pointers
-
-    // Infinite loop for our application
     bool gameIsRunning = true;
     while(gameIsRunning){
 
@@ -82,6 +81,11 @@ int main() {
                 std::cout << "right arrow key is pressed\n";
             }
         }
+        SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
+        SDL_RenderClear(renderer);
+
+        SDL_SetRenderDrawColor(renderer, 255, 105, 180, SDL_ALPHA_OPAQUE);
+//        SDL_RenderFillRect(renderer, &sdlRect);
 
         SDL_GL_SwapWindow(window);
     }
