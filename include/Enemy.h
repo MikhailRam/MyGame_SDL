@@ -5,9 +5,7 @@
 #ifndef MYGAME_ENEMY_H
 #define MYGAME_ENEMY_H
 
-#include "Сreature.h"
-
-class Enemy : public Creature{
+class Enemy{
 public:
 
 private:

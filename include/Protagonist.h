@@ -4,12 +4,19 @@
 #ifndef MYGAME_PROTAGONIST_H
 #define MYGAME_PROTAGONIST_H
 
-#include "Сreature.h"
+#include "Creature.h"
 
 class Protagonist : public Creature{
 public:
+    Protagonist();
+    ~Protagonist() = default;
+
+    void creature_init(SDL_Renderer* new_renderer) override;
+    SDL_Rect get_rect_cover(){return rect_cover;}
+    SDL_Rect rect_cover;
 
 private:
+    const char* protagonist_img = "/Users/mikhailramzhaev/Documents/Works/Programming/CLion_Projects/MyGame/assets/Player.png";
 
 };
 

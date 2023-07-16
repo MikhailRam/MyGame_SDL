@@ -1,8 +1,12 @@
 //
-// Created by Mikhail Ramzhaev on 11.07.23.
+// Created by Mikhail Ramzhaev on 16.07.23.
 //
-#include "Сreature.h"
 
-Creature ::Creature() {
+#include "Creature.h"
 
+Creature::Creature()
+{
 }
+
+
+

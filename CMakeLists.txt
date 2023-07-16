@@ -8,9 +8,11 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/CMake/")
 find_package(SDL2 REQUIRED)
 find_package(SDL2_image REQUIRED)
 
-set(SOURCE src/Creature.cpp
+set(SOURCE
         src/Protagonist.cpp
-        src/Enemy.cpp)
+        src/Enemy.cpp
+        src/Game.cpp
+        src/Creature.cpp)
 
 add_executable(${PROJECT_NAME}
         main.cpp
